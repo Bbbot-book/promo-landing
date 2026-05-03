@@ -6,18 +6,22 @@ def home():
     return """
     <html>
     <head>
-        <title>Promo Landing</title>
+        <title>Orange Sky</title>
         <style>
-            body { font-family: Arial, sans-serif; background:#f9f9f9; text-align:center; padding:50px; }
-            h1 { color:#333; }
-            a { display:inline-block; margin:20px; font-size:18px; color:#25D366; text-decoration:none; }
-            a:hover { text-decoration:underline; }
+            body { font-family: Arial, sans-serif; background:#f0f2f5; text-align:center; padding:50px; }
+            h1 { color:#222; margin-bottom:10px; }
+            p { font-size:18px; color:#555; }
+            .menu { margin-top:30px; }
+            a { display:inline-block; margin:15px; font-size:18px; color:#25D366; text-decoration:none; padding:10px 20px; border:1px solid #25D366; border-radius:6px; }
+            a:hover { background:#25D366; color:white; }
         </style>
     </head>
     <body>
-        <h1>Welcome to Promo Landing</h1>
-        <p>Select a product below:</p>
-        <a href="/patio-swing">Patio Swing</a>
+        <h1>Orange Sky</h1>
+        <p>Quality products with direct WhatsApp support.</p>
+        <div class="menu">
+            <a href="/patio-swing">Patio Swing</a>
+        </div>
     </body>
     </html>
     """
@@ -27,7 +31,7 @@ def patio_swing():
     return """
     <html>
     <head>
-        <title>Patio Swing</title>
+        <title>Patio Swing - Orange Sky</title>
         <style>
             body { font-family: Arial, sans-serif; background:#f9f9f9; text-align:center; padding:50px; }
             h1 { color:#333; }
