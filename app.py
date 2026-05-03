@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
+    <!DOCTYPE html>
     <html>
     <head>
         <title>Orange Sky</title>
