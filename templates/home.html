@@ -1,0 +1,27 @@
+@app.route("/")
+def home():
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Orange Sky</title>
+        <style>
+            body { font-family: Arial, sans-serif; background:#f9f9f9; text-align:center; padding:40px; }
+            img { max-width:100%; border-radius:10px; margin-bottom:20px; }
+            button { background:#25D366; color:white; border:none; padding:15px 25px; font-size:18px; border-radius:8px; cursor:pointer; }
+            button:hover { background:#128C7E; }
+        </style>
+    </head>
+    <body>
+        <img src="/static/showcase.png" alt="Orange Sky Showcase">
+        <h1>Orange Sky</h1>
+        <h2>Product Sourcing & Shipping</h2>
+        <p>Thank you for visiting Orange Sky today. We make sourcing simple: from everyday items to building materials, furniture, machinery, and battery storage systems — you name it, we find it.</p>
+        <h2>Contact Us</h2>
+        <p>Direct WhatsApp support — one click away.</p>
+        <a href="https://wa.me/9607720080" target="_blank">
+            <button>Chat on WhatsApp</button>
+        </a>
+    </body>
+    </html>
+    """
