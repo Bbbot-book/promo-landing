@@ -23,8 +23,13 @@
     <!-- Showcase image -->
     <img src="/static/showcase.png" alt="Orange Sky Showcase">
 
-    <!-- WhatsApp button -->
-    <a href="https://wa.me/9607720080" target="_blank">
+    <!-- WhatsApp button with conversion event -->
+    <a href="https://wa.me/9607720080" target="_blank" 
+       onclick="gtag('event', 'conversion', {
+           'send_to': 'AW-18130530123/qc0yCLGfpqccEMvep8VD',
+           'value': 1.0,
+           'currency': 'USD'
+       });">
         <button>Chat on WhatsApp</button>
     </a>
 </body>
